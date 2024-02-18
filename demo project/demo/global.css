@@ -1,0 +1,83 @@
+.S_txt {
+  font-size: 1.5rem;
+}
+
+.L_txt {
+  font-size: 3.1rem;
+}
+.semi_L_txt {
+  font-size: 2.8rem;
+}
+.Green_txt {
+  font-size: 2.8rem;
+  color: #50c878;
+}
+
+.M_txt {
+  font-size: 1.7rem;
+}
+.category_select select {
+  border: none;
+  outline: none;
+}
+select {
+  font-size: 1.4rem;
+}
+option {
+  font-size: 1.4rem;
+}
+.material-icons {
+  color: ivory;
+}
+
+.head_container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.heading_left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.heading_right {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.arrow_left {
+  display: flex;
+  justify-content: center;
+  min-width: 3rem;
+  align-items: center;
+  min-height: 3rem;
+  font-size: 1.5rem;
+  border: 1px solid grey;
+  border-radius: 4rem;
+  background: ivory;
+  box-shadow: -0.2rem 0.1rem 0.3rem 0.01rem #03030385;
+  cursor: pointer;
+}
+.arrow_right {
+  display: flex;
+  justify-content: center;
+  min-width: 3rem;
+  align-items: center;
+  min-height: 3rem;
+  font-size: 1.5rem;
+  border: 1px solid gray;
+  border-radius: 4rem;
+  background: ivory;
+  box-shadow: 0.2rem 0.1rem 0.3rem 0.01rem #03030385;
+  cursor: pointer;
+}
+
+.heading_right .M_txt {
+  color: rgb(140, 139, 139);
+}
+
+.heading_right .M_txt:hover {
+  color: #50c878;
+}

@@ -1,0 +1,385 @@
+@media (max-width: 1050px) {
+  .secondary_nav_innerContainer {
+    display: none;
+  }
+  .removing {
+    display: none;
+  }
+
+  .p1 {
+    width: 100%;
+  }
+  .banner_p1 {
+    width: 100%;
+    min-height: 20rem;
+  }
+  .banner_p2 {
+    display: none;
+  }
+  .allcategory_container {
+    display: none;
+  }
+  .popular_products_grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .topselling_outerContainer {
+    flex-direction: column;
+  }
+  .topselling_innerContainer {
+    flex-direction: row;
+  }
+  .topselling {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .cart {
+    padding: 0.3rem 0.8rem;
+  }
+  .price {
+    gap: 1rem;
+  }
+  .price {
+    gap: 1rem;
+  }
+  .secondary_contact .S_txt {
+    display: none;
+  }
+  .secondary_contact .M_txt {
+    font-size: 1.3rem;
+  }
+  .fruit {
+    min-height: 15rem;
+  }
+  .fruit .M_txt {
+    font-size: 1.4rem;
+  }
+  .fruit_img img {
+    width: 11rem;
+  }
+  .shopnow button {
+    font-size: 1.1rem;
+  }
+  .fruit_category {
+    min-height: 15rem;
+  }
+  .pineapple img {
+    width: 8rem;
+  }
+  .fruit_category .M_txt {
+    font-size: 1.4rem;
+  }
+  .semi_L_txt {
+    font-size: 2.5rem;
+  }
+  .Green_txt {
+    font-size: 2.5rem;
+  }
+  .product_desc {
+    gap: 1rem;
+  }
+  .banner {
+    font-size: 1.4rem;
+  }
+  .form_rightContainer img {
+    width: 35rem;
+  }
+  .form_container .L_txt {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .price {
+    flex-direction: column;
+  }
+  .form_txt {
+    display: block;
+  }
+  .form_rightContainer img {
+    width: 26rem;
+  }
+  .shopnow button {
+    padding: 0.3rem;
+  }
+  .inner_nav_container .category_select {
+    display: none;
+  }
+  .best {
+    width: calc(100% - 50%);
+  }
+
+  .search {
+    border: none;
+  }
+}
+@media (max-width: 660px) {
+  .S_txt {
+    font-size: 1.2rem;
+  }
+  .form_container .L_txt {
+    font-size: 2rem;
+  }
+  .form_leftContainer {
+    width: 100%;
+  }
+
+  .primary_nav_left {
+    gap: 0.5rem;
+  }
+  .popular_products_grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .left_inner_container {
+    gap: 0.3rem;
+  }
+  .remove {
+    display: none;
+  }
+
+  .primary_navbar img {
+    width: 1.8rem;
+  }
+  .inner_nav_container {
+    height: 2.5rem;
+  }
+  .popular_products .head_container {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .popular_products .heading_right {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .rating {
+    gap: 0.3rem;
+  }
+  .head_container {
+    padding: 0.5rem;
+  }
+  .topselling_container {
+    flex-direction: row;
+  }
+  .promo_inner_container {
+    width: 100%;
+  }
+  .topselling_image {
+    min-width: 11rem;
+    min-height: 11rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .left_inner_container {
+    padding: 0.4rem;
+  }
+  .left_inner_container .S_txt {
+    display: none;
+  }
+  .primary_nav_left {
+    gap: 1.5rem;
+  }
+  .topselling {
+    align-items: center;
+  }
+  .topselling_innerContainer {
+    flex-direction: column;
+  }
+  .left_inner_container .S_txt {
+    font-size: 0.9rem;
+  }
+  .search input {
+    width: 10rem;
+  }
+  .primary_navbar {
+    padding: 0.5rem;
+  }
+  .M_txt {
+    font-size: 1.5rem;
+  }
+  .offer_price {
+    font-size: 1.3rem;
+  }
+  .regular_price {
+    font-size: 1.2rem;
+  }
+  .rating {
+    font-size: 1.1rem;
+  }
+  .L_txt {
+    font-size: 2.8rem;
+  }
+  .about_heading .Green_txt {
+    font-size: 2.8rem;
+  }
+  .banner_item .L_txt {
+    font-size: 2.7rem;
+  }
+
+  .topselling_outerContainer {
+    flex-direction: column;
+  }
+  .best {
+    width: calc(100% - 22%);
+  }
+}
+@media (max-width: 470px) {
+  .inner_container {
+    padding: 0.3rem 0;
+  }
+  .primary_nav_left {
+   
+    padding: 0;
+  }
+  select {
+    font-size: 1rem;
+  }
+  .secondary_contact {
+    display: none;
+  }
+  .form_rightContainer {
+    display: none;
+  }
+
+  .M_txt {
+    font-size: 1.2rem;
+  }
+  .best .L_txt {
+    font-size: 2rem;
+  }
+  .semi_L_txt {
+    font-size: 2.2rem;
+  }
+  .Green_txt {
+    font-size: 2.2rem;
+  }
+  .arrow_right {
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+  }
+  .arrow_left {
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+  }
+  .Subscribe {
+    display: flex;
+    min-width: 10rem;
+  }
+  .categories_container {
+    min-width: 7.5rem;
+    min-height: 7.5rem;
+    max-width: 7.5rem;
+  }
+  .categories_img img {
+    width: 3.5rem;
+    min-height: 3.5rem;
+  }
+  .banner_item .L_txt {
+    font-size: 2.2rem;
+  }
+  .Subscribe button {
+    font-size: 1rem;
+  }
+  .banner_item .S_txt {
+    font-size: 1rem;
+  }
+  .best .L_txt {
+    padding-left: 1rem;
+  }
+  .best .shopnow {
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  .end {
+    display: none;
+  }
+  .material-icons {
+    font-size: 1.5rem;
+  }
+  .products_img img {
+    max-height: 11rem;
+    min-height: 11rem;
+  }
+  .categories_txt {
+    font-size: 1rem;
+
+  }
+}
+
+@media (max-width: 400px) {
+  .search input {
+    width: 8rem;
+  }
+  .search ::placeholder {
+    font-size: 1rem;
+  }
+  .search img {
+    width: 1rem;
+  }
+  .popular_products_grid {
+    grid-template-columns: 1fr;
+  }
+  .about_heading .Green_txt {
+    font-size: 2rem;
+  }
+  .about_heading .L_txt {
+    font-size: 2rem;
+  }
+
+  .about_heading {
+    padding: 0.2rem;
+  }
+  .banner_image {
+    min-width: 4rem;
+  }
+  .Subscribe {
+    flex-direction: column;
+    min-width: 8rem;
+    max-width: 14rem;
+  }
+  .banner_item {
+    gap: 1.5rem;
+  }
+  .popular_products {
+    align-items: center;
+  }
+  .products {
+    width: 25rem;
+  }
+  .Green_txt {
+    font-size: 1.9rem;
+  }
+  .semi_L_txt {
+    font-size: 1.9rem;
+  }
+  .S_txt{
+    font-size: 1.1rem;
+  }
+  .list{
+    font-size: 1.1rem;
+  }
+
+  .categories_container {
+    min-width: 7rem;
+    min-height: 7rem;
+    max-width: 7rem;
+  }
+  .L_txt {
+    font-size: 2.2rem;
+  }
+  .form_container .L_txt {
+    font-size: 1.5rem;
+  }
+  .form ::placeholder {
+    font-size: 1rem;
+}
+.form_txt .Green_txt{
+  font-size: 1.1rem;
+}
+.button {
+  font-size: 1rem;
+}
+}

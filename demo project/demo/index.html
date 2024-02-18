@@ -1,0 +1,1569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="shop_by_categories.css">
+    <link rel="stylesheet" href="popularproducts.css">
+    <link rel="stylesheet" href="best_seller.css">
+    <link rel="stylesheet" href="topselling.css">
+    <link rel="stylesheet" href="media.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="inner_container">
+
+            <div class="primary_navbar">
+                <div class="L_txt">Nolorn</div>
+                <div class="inner_nav_container">
+                    <div class="category_select">
+                        <select name="" id="">
+                            <option><label for=" All categories"></label> All categories</option>
+                            <option value="onion">onion</option>
+                            <option value="carrot">carrot</option>
+                            <option value="potato">potato</option>
+                            <option value="tomato">tomato</option>
+                        </select>
+                    </div>
+                    <div class="search">
+                        <input type="text" placeholder="Search....." />
+                        <button type="submit"><img src="./images/Search.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="allcategory_container">
+                    <div class="icon"><img src="./images/location.png" alt=""></div>
+                    <div class="category_select">
+                        <select name="" id="">
+                            <option><label for=" All categories"></label> All categories</option>
+                            <option value="onion">onion</option>
+                            <option value="carrot">carrot</option>
+                            <option value="potato">potato</option>
+                            <option value="tomato">tomato</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="primary_nav_left">
+                    <div class="left_inner_container">
+                        <div class="notification">
+                            <div class="icon"><img src="./images/fav.svg" alt="like"></div>
+                            <div class="notification_dot">1</div>
+                        </div>
+                        <div class="S_txt">Wishlist</div>
+                    </div>
+                    <div class="left_inner_container">
+                        <div class="notification">
+                            <div class="icon"><img src="./images/cart.svg" alt="cart"></div>
+                            <div class="notification_dot">1</div>
+                        </div>
+                        <div class="S_txt">Cart</div>
+                    </div>
+                    <div class="left_inner_container">
+                        <div class="icon"><img src="./images/profile.svg" alt="profile"></div>
+                        <div class="S_txt">Account</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------secondary navbar---->
+
+        <div class="secondaryNav_outer_container">
+            <div class="secondary_navbar">
+                <div class="secondary_categories">
+                    <div class="material-icons">dashboard</div>
+                    <div class="ctegoray_select">
+                        <select name="" id="">
+                            <option><label for="Browse All categories"></label>Browse All categories</option>
+                            <option value="home">Home</option>
+                            <option value="cart">cart</option>
+                            <option value="Profile">profile</option>
+                            <option value="settings">settings</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="secondary_nav_innerContainer">
+                    <div class="ctegoray_select">
+                        <select name="" id="">
+                            <option><label for="Home"></label>Home</option>
+                            <option value="cart">Cart</option>
+                            <option value="order">orders</option>
+                            <option value="profile">profile</option>
+                            <option value="settings">settings</option>
+                        </select>
+                    </div>
+                    <div class="S_txt">About</div>
+                    <div class="ctegoray_select">
+                        <select name="" id="">
+                            <option><label for="Shop"></label>Shop</option>
+                            <option value="onion">onion</option>
+                            <option value="carrot">carrot</option>
+                            <option value="potato">potato</option>
+                            <option value="tomato">tomato</option>
+                        </select>
+                    </div>
+                    <div class="ctegoray_select">
+                        <select name="" id="">
+                            <option><label for="Blog"></label>Blog</option>
+                            <option value="onion">onion</option>
+                            <option value="carrot">carrot</option>
+                            <option value="potato">potato</option>
+                            <option value="tomato">tomato</option>
+                        </select>
+                    </div>
+                    <div class="S_txt">Our team</div>
+                    <div class="S_txt">Contact</div>
+
+
+                </div>
+
+                <div class="secondary_social">
+                    <div class="fab fa-facebook fb"></div>
+                    <div class="fab fa-instagram insta"></div>
+                    <div class="fab fa-twitter twit"></div>
+                    <div class="fab fa-whatsapp whsp"></div>
+                    <div class="fab fa-youtube ytb"></div>
+                </div>
+
+                <div class="secondary_contact">
+                    <div class="fa fa-phone"></div>
+                    <div class="contact_number">
+                        <div class="M_txt">(406) 555-0120</div>
+                        <div class="S_txt">mob-900-2000000</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!----banner------>
+
+
+        <div class="banner_outercontainer">
+
+
+            <div class="banner_innercontainer">
+                <div class="p1">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="banner_p1 bgcolor2">
+                                    <div class="banner_item">
+                                        <div class="L_txt">Rice drink with <br>
+                                            vitamin D3</div>
+                                        <div class="S_txt">Up to 30% off your first order</div>
+                                        <form class="Subscribe">
+                                            <input type="email" placeholder="Enter Your email address" />
+                                            <button type="submit">Subscribe</button>
+                                        </form>
+                                    </div>
+                                    <div class="banner_image"><img src="./images/milk.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="banner_p1 bgcolor1">
+                                    <div class="banner_item">
+                                        <div class="L_txt">Rice drink with <br>
+                                            vitamin D3</div>
+                                        <div class="S_txt">Up to 30% off your first order</div>
+                                        <div class="Subscribe">
+                                            <input type="text" placeholder="Enter Your email address" />
+                                            <button type="submit">Subscribe</button>
+                                        </div>
+                                    </div>
+                                    <div class="banner_image"><img src="./images/milk.png" alt=""></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+                <div class="banner_p2">
+                    <div class="bannerP2_item">
+                        <div class="banner_text_container">
+                            <div class="semi_L_txt">Buy with </div>
+                            <div class="Green_txt">
+                                free
+                                <br>
+                                shiping
+                            </div>
+                        </div>
+                        <div class="shopnow">
+                            <button type="submit">Shop Now &rarr;</button>
+                        </div>
+                    </div>
+                    <div class="banner_p2_img"><img src="./images/apricot.png" alt="apricot"></div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="inner_container">
+            <!----shop by ctegories----->
+            <div class="shop_by_categories">
+                <div class="head_container">
+                    <div class="heading_left">
+                        <div class="semi_L_txt">Shop</div>
+                        <div class="Green_txt"> by Categories</div>
+                    </div>
+                    <div class="heading_right">
+                        <div class="arrow_left" id="leftIcon_1" onclick="btn_left('leftIcon_1','rightIcon_1')">
+                            &larr;
+                        </div>
+                        <div class="arrow_right" id="rightIcon_1" onclick="btn_left('rightIcon_1','leftIcon_1')">
+                            &rarr;
+                        </div>
+                    </div>
+                </div>
+
+                <div class="categories">
+                    <div class="swiper myscroll">
+                        <div class="swiper-wrapper">
+
+
+                            <div class="swiper-slide">
+                                <div class="categories_container color2">
+                                    <div class="categories_img"><img src="./images/c1.png" alt=""></div>
+                                    <div class="categories_txt">Sets</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="categories_container color5">
+                                    <div class="categories_img"><img src="./images/c2.png" alt=""></div>
+                                    <div class="categories_txt">Fruits</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+
+                                <div class="categories_container color1">
+                                    <div class="categories_img"><img src="./images/c3.png" alt=""></div>
+                                    <div class="categories_txt">Vegetables</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="categories_container color4">
+                                    <div class="categories_img"><img src="./images/c4.png" alt=""></div>
+                                    <div class="categories_txt">Greenery</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="categories_container color3">
+                                    <div class="categories_img"><img src="./images/c5.png" alt=""></div>
+                                    <div class="categories_txt">Fungi</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="categories_container color1">
+                                    <div class="categories_img"><img src="./images/c6.png" alt=""></div>
+                                    <div class="categories_txt">Groceries</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="categories_container color2">
+                                    <div class="categories_img"><img src="./images/c3.png" alt=""></div>
+                                    <div class="categories_txt">Sweets</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="categories_container color5">
+                                    <div class="categories_img"><img src="./images/c4.png" alt=""></div>
+                                    <div class="categories_txt">Drinks</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="category_fruit">
+                <div class="swiper myscroll2">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="fruit color3">
+                                <div class="fruit_txt">
+                                    <div class="M_txt">Vegetarian and vegan <br>
+                                        products</div>
+                                    <div class="shopnow">
+                                        <button type="submit">Shop Now &rarr;</button>
+                                    </div>
+                                </div>
+
+                                <div class="fruit_img"><img src="./images/f1.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="fruit color1 ">
+                                <div class="fruit_txt">
+                                    <div class="M_txt">Vegetarian and vegan <br>
+                                        products</div>
+                                    <div class="shopnow">
+                                        <button type="submit">Shop Now &rarr;</button>
+                                    </div>
+                                </div>
+
+                                <div class="fruit_img"><img src="./images/f2.png" alt=""></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="fruit color2">
+                                <div class="fruit_txt">
+                                    <div class="M_txt">Vegetarian and vegan <br>
+                                        products</div>
+                                    <div class="shopnow">
+                                        <button type="submit">Shop Now &rarr;</button>
+                                    </div>
+                                </div>
+
+                                <div class="fruit_img"><img src="./images/f3.png" alt=""></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!---popular products----->
+            <div class="popular_products">
+                <div class="head_container">
+                    <div class="heading_left">
+                        <div class="semi_L_txt">Shop</div>
+                        <div class="Green_txt"> by Categories</div>
+                    </div>
+                    <div class="heading_right">
+                        <div class="M_txt">All</div>
+                        <div class="M_txt">Milks</div>
+                        <div class="M_txt">Pet Foods</div>
+                        <div class="M_txt">Vegetables</div>
+                        <div class="M_txt">Fruits</div>
+
+                    </div>
+                </div>
+
+                <div class="popular_products_grid">
+                    <div class="products">
+                        <div class="banner blue">sale</div>
+                        <div class="favorate">
+                            <div class="far fa-heart" id="heart-1" onclick="heartClickHandler('heart-1')"></div>
+                        </div>
+                        <div class="products_img"><img src="./images/1.png" alt=""></div>
+                        <div class="product_desc">
+                            <div class="S_txt">category</div>
+                            <div class="M_txt">Garbuz Ukraine</div>
+                            <div class="rating">
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star metalic"></div>
+                                <div class="rating_score">(4.0)</div>
+                            </div>
+                            <div class="S_txt">Price per kg</div>
+
+                            <div class="price">
+                                <div class="price_container">
+                                    <div class="offer_price">$25.00</div>
+                                    <div class="regular_price">$30.00</div>
+                                </div>
+                                <div class="cart">
+                                    <div class="icon"><img src="./images/green_cart.svg" alt=""></div>
+                                    <div class="S_txt">Add</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="favorate">
+                            <div class="far fa-heart" id="heart-2" onclick="heartClickHandler('heart-2')"></div>
+                        </div>
+                        <div class="banner green">New</div>
+
+                        <div class="products_img"><img src="./images/2.png" alt=""></div>
+                        <div class="product_desc">
+                            <div class="S_txt">category</div>
+                            <div class="M_txt">Garbuz Ukraine</div>
+                            <div class="rating">
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star metalic"></div>
+                                <div class="rating_score">(4.0)</div>
+                            </div>
+                            <div class="S_txt">Price per kg</div>
+
+                            <div class="price">
+                                <div class="price_container">
+                                    <div class="offer_price">$25.00</div>
+                                    <div class="regular_price">$30.00</div>
+                                </div>
+                                <div class="cart">
+                                    <div class="icon"><img src="./images/green_cart.svg" alt=""></div>
+                                    <div class="S_txt">Add</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="favorate">
+                            <div class="far fa-heart" id="heart-3" onclick="heartClickHandler('heart-3')"></div>
+                        </div>
+                        <div class="products_img"><img src="./images/3.png" alt=""></div>
+                        <div class="product_desc">
+                            <div class="S_txt">category</div>
+                            <div class="M_txt">Garbuz Ukraine</div>
+                            <div class="rating">
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star metalic"></div>
+                                <div class="rating_score">(4.0)</div>
+                            </div>
+                            <div class="S_txt">Price per kg</div>
+
+                            <div class="price">
+                                <div class="price_container">
+                                    <div class="offer_price">$25.00</div>
+                                    <div class="regular_price">$30.00</div>
+                                </div>
+                                <div class="cart">
+                                    <div class="icon"><img src="./images/green_cart.svg" alt=""></div>
+                                    <div class="S_txt">Add</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="favorate">
+                            <div class="far fa-heart" id="heart-4" onclick="heartClickHandler('heart-4')"></div>
+                        </div>
+                        <div class="banner red">Hot</div>
+
+                        <div class="products_img"><img src="./images/4.png" alt=""></div>
+                        <div class="product_desc">
+                            <div class="S_txt">category</div>
+                            <div class="M_txt">Garbuz Ukraine</div>
+                            <div class="rating">
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star metalic"></div>
+                                <div class="rating_score">(4.0)</div>
+                            </div>
+                            <div class="S_txt">Price per kg</div>
+
+                            <div class="price">
+                                <div class="price_container">
+                                    <div class="offer_price">$25.00</div>
+                                    <div class="regular_price">$30.00</div>
+                                </div>
+                                <div class="cart">
+                                    <div class="icon"><img src="./images/green_cart.svg" alt=""></div>
+                                    <div class="S_txt">Add</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="favorate">
+                            <div class="far fa-heart" id="heart-5" onclick="heartClickHandler('heart-5')"></div>
+                        </div>
+                        <div class="products_img"><img src="./images/5.png" alt=""></div>
+                        <div class="product_desc">
+                            <div class="S_txt">category</div>
+                            <div class="M_txt">Garbuz Ukraine</div>
+                            <div class="rating">
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star metalic"></div>
+                                <div class="rating_score">(4.0)</div>
+                            </div>
+                            <div class=" red_font">To order</div>
+
+                            <div class="price">
+                                <div class="price_container">
+                                    <div class="offer_price">$25.00</div>
+                                    <div class="regular_price">$30.00</div>
+                                </div>
+                                <div class="cart">
+                                    <div class="icon"><img src="./images/green_cart.svg" alt=""></div>
+                                    <div class="S_txt">Add</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="favorate">
+                            <div class="far fa-heart" id="heart-6" onclick="heartClickHandler('heart-6')"></div>
+                        </div>
+                        <div class="banner blue">Sale</div>
+
+                        <div class="products_img"><img src="./images/6.png" alt=""></div>
+                        <div class="product_desc">
+                            <div class="S_txt">category</div>
+                            <div class="M_txt">Garbuz Ukraine</div>
+                            <div class="rating">
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star metalic"></div>
+                                <div class="rating_score">(4.0)</div>
+                            </div>
+                            <div class="S_txt">Price per kg</div>
+
+                            <div class="price">
+                                <div class="price_container">
+                                    <div class="offer_price">$25.00</div>
+                                    <div class="regular_price">$30.00</div>
+                                </div>
+                                <div class="cart">
+                                    <div class="icon"><img src="./images/green_cart.svg" alt=""></div>
+                                    <div class="S_txt">Add</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="favorate">
+                            <div class="far fa-heart" id="heart-7" onclick="heartClickHandler('heart-7')"></div>
+                        </div>
+                        <div class="banner red">Hot</div>
+
+                        <div class="products_img"><img src="./images/7.png" alt=""></div>
+                        <div class="product_desc">
+                            <div class="S_txt">category</div>
+                            <div class="M_txt">Garbuz Ukraine</div>
+                            <div class="rating">
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star metalic"></div>
+                                <div class="rating_score">(4.0)</div>
+                            </div>
+                            <div class="S_txt">Price per kg</div>
+
+                            <div class="price">
+                                <div class="price_container">
+                                    <div class="offer_price">$25.00</div>
+                                    <div class="regular_price">$30.00</div>
+                                </div>
+                                <div class="cart">
+                                    <div class="icon"><img src="./images/green_cart.svg" alt=""></div>
+                                    <div class="S_txt">Add</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="products">
+                        <div class="favorate">
+                            <div class="far fa-heart" id="heart-8" onclick="heartClickHandler('heart-8')"></div>
+                        </div>
+                        <div class="banner green">New</div>
+
+                        <div class="products_img"><img src="./images/8.png" alt=""></div>
+                        <div class="product_desc">
+                            <div class="S_txt">category</div>
+                            <div class="M_txt">Garbuz Ukraine</div>
+                            <div class="rating">
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star checked"></div>
+                                <div class="fa fa-star metalic"></div>
+                                <div class="rating_score">(4.0)</div>
+                            </div>
+                            <div class="S_txt">Price per kg</div>
+
+                            <div class="price">
+                                <div class="price_container">
+                                    <div class="offer_price">$25.00</div>
+                                    <div class="regular_price">$30.00</div>
+                                </div>
+                                <div class="cart">
+                                    <div class="icon"><img src="./images/green_cart.svg" alt=""></div>
+                                    <div class="S_txt">Add</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-----daily best sellers----->
+            <div class="best_sellers">
+                <div class="head_container">
+                    <div class="heading_left">
+                        <div class="semi_L_txt">Daily </div>
+                        <div class="Green_txt">Best Sells</div>
+                    </div>
+                    <div class="heading_right">
+                        <div class="arrow_left" id="leftIcon_2" onclick="btn_left('leftIcon_2','rightIcon_2')">
+                            &larr;
+                        </div>
+                        <div class="arrow_right" id="rightIcon_2" onclick="btn_left('rightIcon_2','leftIcon_2')">
+                            &rarr;
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="best_seller_container">
+                    <div class=" best">
+                        <div class="L_txt">A burst <br>
+                            of energy</div>
+                        <div class="shopnow">
+                            <button type="submit">Shop Now &rarr;</button>
+                        </div>
+
+                    </div>
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="bestselling">
+                                    <div class="favorate">
+                                        <div class="far fa-heart" id="heart-9" onclick="heartClickHandler('heart-9')">
+                                        </div>
+                                    </div>
+                                    <div class="banner red">Hot</div>
+
+                                    <div class="products_img"><img src="./images/walnuts.png" alt=""></div>
+                                    <div class="product_desc">
+                                        <div class="S_txt">category</div>
+                                        <div class="M_txt">Garbuz Ukraine</div>
+                                        <div class="rating">
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star metalic"></div>
+                                            <div class="rating_score">(4.0)</div>
+                                        </div>
+                                        <div class="S_txt">Price per kg</div>
+
+                                        <div class="price">
+                                            <div class="price_container">
+
+                                                <div class="offer_price">$25.00</div>
+                                                <div class="regular_price">$30.00</div>
+                                            </div>
+                                            <div class="cart">
+
+                                                <div class="icon"><img src="./images/white_cart.svg" alt=""></div>
+                                                <div class="S_txt">Add To Cart</div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+
+                                <div class="bestselling">
+                                    <div class="favorate">
+                                        <div class="far fa-heart" id="heart-10" onclick="heartClickHandler('heart-10')">
+                                        </div>
+                                    </div>
+
+                                    <div class="products_img"><img src="./images/Gori_pecan.png" alt=""></div>
+                                    <div class="product_desc">
+                                        <div class="S_txt">category</div>
+                                        <div class="M_txt">Garbuz Ukraine</div>
+                                        <div class="rating">
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star metalic"></div>
+                                            <div class="rating_score">(4.0)</div>
+                                        </div>
+                                        <div class="S_txt">Price per kg</div>
+
+                                        <div class="price">
+                                            <div class="price_container">
+
+                                                <div class="offer_price">$25.00</div>
+                                                <div class="regular_price">$30.00</div>
+                                            </div>
+                                            <div class="cart">
+
+                                                <div class="icon"><img src="./images/white_cart.svg" alt=""></div>
+                                                <div class="S_txt">Add To Cart</div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+
+
+                                <div class="bestselling ">
+                                    <div class="favorate">
+                                        <div class="far fa-heart" id="heart-11" onclick="heartClickHandler('heart-11')">
+                                        </div>
+                                    </div>
+                                    <div class="banner red">Hot</div>
+
+                                    <div class="products_img"><img src="./images/Macadamia.png" alt=""></div>
+                                    <div class="product_desc">
+                                        <div class="S_txt">category</div>
+                                        <div class="M_txt">Garbuz Ukraine</div>
+                                        <div class="rating">
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star metalic"></div>
+                                            <div class="rating_score">(4.0)</div>
+                                        </div>
+                                        <div class="S_txt">Price per kg</div>
+
+                                        <div class="price">
+                                            <div class="price_container">
+
+                                                <div class="offer_price">$25.00</div>
+                                                <div class="regular_price">$30.00</div>
+                                            </div>
+                                            <div class="cart">
+
+                                                <div class="icon"><img src="./images/white_cart.svg" alt=""></div>
+                                                <div class="S_txt">Add To Cart</div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+
+                                <div class="bestselling">
+                                    <div class="favorate">
+                                        <div class="far fa-heart" id="heart-10" onclick="heartClickHandler('heart-12')">
+                                        </div>
+                                    </div>
+
+                                    <div class="products_img"><img src="./images/Gori_pecan.png" alt=""></div>
+                                    <div class="product_desc">
+                                        <div class="S_txt">category</div>
+                                        <div class="M_txt">Garbuz Ukraine</div>
+                                        <div class="rating">
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star checked"></div>
+                                            <div class="fa fa-star metalic"></div>
+                                            <div class="rating_score">(4.0)</div>
+                                        </div>
+                                        <div class="S_txt">Price per kg</div>
+
+                                        <div class="price">
+                                            <div class="price_container">
+
+                                                <div class="offer_price">$25.00</div>
+                                                <div class="regular_price">$30.00</div>
+                                            </div>
+                                            <div class="cart">
+
+                                                <div class="icon"><img src="./images/white_cart.svg" alt=""></div>
+                                                <div class="S_txt">Add To Cart</div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!----hot promotions----->
+
+            <div class="hot_promotion">
+
+                <div class="head_container">
+                    <div class="heading_left">
+                        <div class="semi_L_txt">Daily </div>
+                        <div class="Green_txt">Best Sells</div>
+                    </div>
+                    <div class="heading_right">
+                        <div class="arrow_left" id="leftIcon" onclick="btn_left('leftIcon','rightIcon')">
+                            &larr;</div>
+                        <div class="arrow_right" id="rightIcon" onclick="btn_left('rightIcon','leftIcon')">
+                            &rarr;</div>
+                    </div>
+                </div>
+                <div class="promo_container_outer">
+
+                    <div class="promo_container">
+
+                        <div class="promo_inner_container bg1">
+                            <div class="time">
+                                <div class="day">
+                                    <div class="time_head">Days</div>
+                                    <div class="time_display" id="day"></div>
+                                </div>
+                                <div class="hour">
+                                    <div class="time_head">Hours</div>
+                                    <div class="time_display" id="hour"></div>
+                                </div>
+                                <div class="minute">
+                                    <div class="time_head">Mins</div>
+                                    <div class="time_display" id="min"></div>
+                                </div>
+                                <div class="sec">
+                                    <div class="time_head">sec</div>
+                                    <div class="time_display" id="sec"></div>
+                                </div>
+                            </div>
+                            <div class="promo_txt">
+                                <div class="M_txt">Seeds of Change Organic Quinoa, Brown,
+                                    & Red Rice</div>
+                                <div class="rating">
+                                    <div class="fa fa-star checked"></div>
+                                    <div class="fa fa-star checked"></div>
+                                    <div class="fa fa-star checked"></div>
+                                    <div class="fa fa-star checked"></div>
+                                    <div class="fa fa-star metalic"></div>
+                                    <div class="rating_score">(4.0)</div>
+                                </div>
+                                <div class="S_txt">Additinoal text</div>
+                                <div class="promo_price">
+                                    <div class="price">
+                                        <div class="offer_price">$24.00</div>
+                                        <div class="regular_price">$30.00</div>
+                                    </div>
+                                    <div class="cart">
+                                        <div class="icon"><img src="./images/Green_cart.svg" alt="">
+                                        </div>
+                                        <div class="S_txt">Add</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="promo_inner_container bg2 remove">
+                            <div class="time">
+                                <div class="day">
+                                    <div class="time_head">Days</div>
+                                    <div class="time_display" id="day2"></div>
+                                </div>
+                                <div class="hour">
+                                    <div class="time_head">Hours</div>
+                                    <div class="time_display" id="hour2"></div>
+                                </div>
+                                <div class="minute">
+                                    <div class="time_head">Mins</div>
+                                    <div class="time_display" id="min2"></div>
+                                </div>
+                                <div class="sec">
+                                    <div class="time_head">sec</div>
+                                    <div class="time_display" id="sec2"></div>
+                                </div>
+                            </div>
+                            <div class="promo_txt">
+                                <div class="M_txt">Seeds of Change Organic Quinoa, Brown,
+                                    & Red Rice</div>
+                                <div class="rating">
+                                    <div class="fa fa-star checked"></div>
+                                    <div class="fa fa-star checked"></div>
+                                    <div class="fa fa-star checked"></div>
+                                    <div class="fa fa-star checked"></div>
+                                    <div class="fa fa-star metalic"></div>
+                                    <div class="rating_score">(4.0)</div>
+                                </div>
+                                <div class="S_txt">Additinoal text</div>
+                                <div class="promo_price">
+                                    <div class="price">
+                                        <div class="offer_price">$24.00</div>
+                                        <div class="regular_price">$30.00</div>
+                                    </div>
+                                    <div class="cart">
+                                        <div class="icon"><img src="./images/Green_cart.svg" alt="">
+                                        </div>
+                                        <div class="S_txt">Add</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category_fruit">
+                    <div class="swiper myscroll2">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="fruit_category">
+                                    <div class="fruit_txt">
+                                        <div class="M_txt">Vegetarian and vegan <br>
+                                            products</div>
+                                        <div class="shopnow">
+                                            <button type="submit">Shop Now &rarr;</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="fruit_img pineapple"><img src="./images/pineapple.png" alt=""></div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="fruit_category">
+                                    <div class="fruit_txt">
+                                        <div class="M_txt">Vegetarian and vegan <br>
+                                            products</div>
+                                        <div class="shopnow">
+                                            <button type="submit">Shop Now &rarr;</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="fruit_img"><img src="./images/banana.png" alt=""></div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="fruit_category">
+                                    <div class="fruit_txt">
+                                        <div class="M_txt">Vegetarian and vegan <br>
+                                            products</div>
+                                        <div class="shopnow">
+                                            <button type="submit">Shop Now &rarr;</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="fruit_img"><img src="./images/grapes.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <!-----top_selling------>
+                <div class="topselling_outerContainer">
+                    <div class="topselling">
+                        <div class="head_container ">
+                            <div class="heading_left">
+                                <div class="semi_L_txt">Top </div>
+                                <div class="Green_txt"> Selling</div>
+                            </div>
+                        </div>
+                        <div class="topselling_innerContainer">
+                            <div class="topselling_container removing">
+                                <div class="topselling_image">
+                                    <img src="./images/img7.png" alt="">
+                                </div>
+                                <div class="topsellig_desc">
+                                    <div class="M_txt"> Product name</div>
+                                    <div class="rating">
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star metalic"></div>
+                                        <div class="rating_score">(4.0)</div>
+                                    </div>
+                                    <div class="S_txt">Additinoal text</div>
+
+                                    <div class="price">
+                                        <div class="offer_price">$25.00</div>
+                                        <div class="regular_price">$30.00</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="topselling_container">
+                                <div class="topselling_image">
+                                    <img src="./images/img4.png" alt="">
+                                </div>
+                                <div class="topsellig_desc">
+                                    <div class="M_txt"> Product name</div>
+                                    <div class="rating">
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star metalic"></div>
+                                        <div class="rating_score">(4.0)</div>
+                                    </div>
+                                    <div class="S_txt">Additinoal text</div>
+
+                                    <div class="price">
+                                        <div class="offer_price">$25.00</div>
+                                        <div class="regular_price">$30.00</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="topselling_container">
+                                <div class="topselling_image">
+                                    <img src="./images/img1.png" alt="">
+                                </div>
+                                <div class="topsellig_desc">
+                                    <div class="M_txt"> Product name</div>
+                                    <div class="rating">
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star metalic"></div>
+                                        <div class="rating_score">(4.0)</div>
+                                    </div>
+                                    <div class="S_txt">Additinoal text</div>
+
+                                    <div class="price">
+                                        <div class="offer_price">$25.00</div>
+                                        <div class="regular_price">$30.00</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-----trending products --->
+
+                    <div class="topselling">
+                        <div class="head_container">
+                            <div class="heading_left">
+                                <div class="semi_L_txt">Trending </div>
+                                <div class="Green_txt"> Products</div>
+                            </div>
+                        </div>
+                        <div class="topselling_innerContainer">
+                            <div class="topselling_container removing">
+                                <div class="topselling_image">
+                                    <img src="./images/img3.png" alt="">
+                                </div>
+                                <div class="topsellig_desc">
+                                    <div class="M_txt"> Product name</div>
+                                    <div class="rating">
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star metalic"></div>
+                                        <div class="rating_score">(4.0)</div>
+                                    </div>
+                                    <div class="S_txt">Additinoal text</div>
+
+                                    <div class="price">
+                                        <div class="offer_price">$25.00</div>
+                                        <div class="regular_price">$30.00</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="topselling_container">
+                                <div class="topselling_image">
+                                    <img src="./images/6.png" alt="">
+                                </div>
+                                <div class="topsellig_desc">
+                                    <div class="M_txt"> Product name</div>
+                                    <div class="rating">
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star metalic"></div>
+                                        <div class="rating_score">(4.0)</div>
+                                    </div>
+                                    <div class="S_txt">Additinoal text</div>
+
+                                    <div class="price">
+                                        <div class="offer_price">$25.00</div>
+                                        <div class="regular_price">$30.00</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="topselling_container">
+                                <div class="topselling_image">
+                                    <img src="./images/img5.png" alt="">
+                                </div>
+                                <div class="topsellig_desc">
+                                    <div class="M_txt"> Product name</div>
+                                    <div class="rating">
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star metalic"></div>
+                                        <div class="rating_score">(4.0)</div>
+                                    </div>
+                                    <div class="S_txt">Additinoal text</div>
+
+                                    <div class="price">
+                                        <div class="offer_price">$25.00</div>
+                                        <div class="regular_price">$30.00</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!----Recently Added---->
+                    <div class="topselling">
+                        <div class="head_container">
+                            <div class="heading_left">
+                                <div class="semi_L_txt">Recently </div>
+                                <div class="Green_txt"> Added</div>
+                            </div>
+                        </div>
+                        <div class="topselling_innerContainer">
+                            <div class="topselling_container removing">
+                                <div class="topselling_image">
+                                    <img src="./images/img6.png" alt="">
+                                </div>
+                                <div class="topsellig_desc">
+                                    <div class="M_txt"> Product name</div>
+                                    <div class="rating">
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star metalic"></div>
+                                        <div class="rating_score">(4.0)</div>
+                                    </div>
+                                    <div class="S_txt">Additinoal text</div>
+
+                                    <div class="price">
+                                        <div class="offer_price">$25.00</div>
+                                        <div class="regular_price">$30.00</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="topselling_container">
+                                <div class="topselling_image">
+                                    <img src="./images/img2.png" alt="">
+                                </div>
+                                <div class="topsellig_desc">
+                                    <div class="M_txt"> Product name</div>
+                                    <div class="rating">
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star metalic"></div>
+                                        <div class="rating_score">(4.0)</div>
+                                    </div>
+                                    <div class="S_txt">Additinoal text</div>
+
+                                    <div class="price">
+                                        <div class="offer_price">$25.00</div>
+                                        <div class="regular_price">$30.00</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="topselling_container">
+                                <div class="topselling_image">
+                                    <img src="./images/img3.png" alt="">
+                                </div>
+                                <div class="topsellig_desc">
+                                    <div class="M_txt"> Product name</div>
+                                    <div class="rating">
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star checked"></div>
+                                        <div class="fa fa-star metalic"></div>
+                                        <div class="rating_score">(4.0)</div>
+                                    </div>
+                                    <div class="S_txt">Additinoal text</div>
+
+                                    <div class="price">
+                                        <div class="offer_price">$25.00</div>
+                                        <div class="regular_price">$30.00</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!----About--->
+                <div class="about_container">
+                    <div class="about_heading">
+                        <div class="about_head">
+                            <div class="L_txt">Online Store of</div>
+                            <div class="Green_txt"> Products</div>
+                        </div>
+
+                        <div class="Green_txt"> With Delivery</div>
+                    </div>
+
+
+
+
+                    <div class="about_txt_container">
+                        <div class="S_txt"><span class="txt_green"> Nolorn </span> is a direct importer of
+                            fruits,
+                            vegetables, fruits, salads, mushrooms.
+                            Since 2008, and already more than 14 years, we have been delivering products to the
+                            homes of
+                            Ukrainians, restaurants, cafes and other partners.</div>
+                        <div class="S_txt">Quality and service are our priorities. To the very same, we
+                            spivpratsyucmo
+                            only
+                            with nadinym postal workers from Spain, Brazil, Holland, Argentine, Thailand and
+                            other
+                            lands,
+                            And for the convenience of customers, they created an online store for products.
+                            Here, for
+                            the
+                            help of an intelligent catalog and filters, you can quickly select and buy those
+                            that you
+                            need.
+                        </div>
+                        <div class="M_txt">Assortment Nolorn</div>
+                        <div class="S_txt">Buying products online is very convenient! You can select and order
+                            products at
+                            any time directly from your smartphone. This got only saves time, but also avoids
+                            queues at
+                            stores and the hassle of carrying heavy packages. In our online store you will find
+                            fresh
+                            vegetables and fruits, as well as</div>
+                        <div class="list">
+                            <li><span>Berries</span></li>
+                            <li><span>Greens and salads</span></li>
+                            <li><span>Dried fruits </span></li>
+                            <li><span>Spices</span></li>
+                            <li><span>Vegetables</span></li>
+                            <li><span>Flour and cereals</span></li>
+                        </div>
+                        <div class="S_txt">Another highlight of <span class="txt_green"> Nolorn </span> is the
+                            opportunity
+                            to buy exotic fruits. Our
+                            assortment includes more than 500 exotic fruits from different parts of the world.
+                            It is
+                            difficult to buy them in a regular supermarket. However, using our delivery, you can
+                            easily feel
+                            the exotic taste.</div>
+                        <div class="S_txt">Looking for an original gift for a loved one, friend or colleague? In
+                            our online
+                            grocery store you can order Fruit Box a set of exotic fruits in a beautiful craft
+                            box. Such a
+                            gift will be remembered for a long time and will cause pleasant emotions and
+                            impressions of new
+                            tastes. In addition, you can assemble and buy such a set yourself by choosing any
+                            fruits,
+                            berries or nuts from the assortment.</div>
+                        <div class="S_txt">The high quality of our products is confirmed by relevant
+                            certificates and the
+                            international HACCP certificate We make sure that customers receive only selected
+                            natural
+                            products, ready to use. They are stored in our own warehouses where the correct
+                            temperature is
+                            maintained to keep them fresh and ripe.</div>
+
+
+
+                    </div>
+                </div>
+
+                <div class="form_container">
+
+                    <div class="form_leftContainer">
+                        <div class="L_txt">Stay home & get your daily <br>
+                            needs from our shop</div>
+
+                        <div class="form_txt">
+                            <div class="S_txt">Start You'r Daily Shopping with</div>
+                            <div class="Green_txt"> Nolorn</div>
+                        </div>
+
+                        <form class="form">
+                            <input type="email" name="email" placeholder="Enter your email address" class="text_box">
+                            <input type="tel" id="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" />
+                            <input type="submit" value="Subscribe" class="button">
+
+                        </form>
+                    </div>
+                    <div class="form_rightContainer">
+                        <img src="./images/Delivery-Scooter.png" alt="delivery">
+                    </div>
+
+                </div>
+
+
+                <div class="footer">
+
+
+
+
+                    <div class="nolorn">
+                        <div class="semi_L_txt">Nolorn</div>
+                        <div class="secondary_social">
+                            <div class="fab fa-facebook fb"></div>
+                            <div class="fab fa-instagram insta"></div>
+                            <div class="fab fa-twitter twit"></div>
+                            <div class="fab fa-whatsapp whsp"></div>
+                            <div class="fab fa-youtube ytb"></div>
+                        </div>
+                        <div class="subcontainer">
+                            <div class="fa fa-phone"></div>
+                            <div class="S_txt">(684)55550102</div>
+                        </div>
+                        <div class="subcontainer">
+                            <div class="fa fa-envelope"></div>
+                            <div class="S_txt">name@gmail.com</div>
+                        </div>
+                        <div class="subcontainer">
+                            <div class="fa fa-location-arrow"></div>
+                            <div class="S_txt">6391 Elgin St. Celina, Delaware 10299</div>
+                        </div>
+                        <div class="subcontainer">
+                            <div class="fa fa-clock-o"></div>
+                            <div class="S_txt">10.00-18:00, Mon - Sat</div>
+                        </div>
+                    </div>
+                    <div class="company none">
+                        <div class="M_txt">Company</div>
+                        <div class="S_txt">Aboout us</div>
+                        <div class="S_txt">Case Studies</div>
+                        <div class="S_txt"> Blog</div>
+                        <div class="S_txt"> Service</div>
+                        <div class="S_txt"> Contact</div>
+                    </div>
+                    <div class="company">
+                        <div class="M_txt">Account</div>
+                        <div class="S_txt"> Sign In</div>
+                        <div class="S_txt"> View Cart</div>
+                        <div class="S_txt"> Track My Order</div>
+                        <div class="S_txt"> Compare products</div>
+                        <div class="S_txt"> My Wishlist</div>
+                    </div>
+                    <div class="company remove">
+                        <div class="M_txt">Download</div>
+                        <div class="S_txt"> From App Store or Google Play</div>
+                        <div class="Play_store"><img src="./images/appstore.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="end">
+                    <div class="end_container">
+                        <div class="S_txt">Copyright © 2022</div>
+                        <div class="green_txt">ThemRage.</div>
+                        <div class="S_txt"> All Right Reserved.</div>
+                    </div>
+
+
+                    <div class="end_container">
+                        <div class="S_txt">Made with</div>
+                        <div class="far fa-heart"></div>
+                        <div class="S_txt"> By Dragonfly.</div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                loop: true,
+                loopFillGroupWithBlank: true,
+                autoplay: {
+                    delay: 2700,
+                    disableOnInteraction: true,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    dynamicBullets: true,
+
+                },
+            });
+        </script>
+        <script>
+            var swiper = new Swiper(".mySwiper2", {
+
+                breakpoints: {
+                    550: {
+                        slidesPerView: 2,
+                        spaceBetween: 10
+                    },
+
+
+                    950: {
+                        slidesPerView: 3,
+                        spaceBetween: 40
+                    }
+                },
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                },
+
+
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+            });
+        </script>
+        <script>
+            var swiper = new Swiper(".myscroll", {
+                loop: true,
+                loopFillGroupWithBlank: true,
+                slidesPerView: 4,
+
+                breakpoints: {
+                    950: {
+                        slidesPerView: 8,
+                        spaceBetween: 10
+                    },
+                    850: {
+                        slidesPerView: 7,
+                        spaceBetween: 10
+                    },
+                    650: {
+                        slidesPerView: 6,
+                        spaceBetween: 10
+                    },
+                    550: {
+                        slidesPerView: 5,
+                        spaceBetween: 10
+                    },
+                    450: {
+                        slidesPerView: 4,
+                        spaceBetween: 10
+                    },
+                    318: {
+                        slidesPerView: 4,
+                        spaceBetween: 10
+                    },
+                },
+            });
+        </script>
+        <script>
+            var swiper = new Swiper(".myscroll2", {
+                loop: true,
+                loopFillGroupWithBlank: true,
+                slidesPerView: 1,
+
+                breakpoints: {
+
+                    650: {
+                        slidesPerView: 3,
+                        spaceBetween: 10
+                    },
+
+                    450: {
+                        slidesPerView: 2,
+                        spaceBetween: 10
+                    },
+                },
+            });
+        </script>
+        <script>
+            var swiper = new Swiper(".mySwiper1", {
+
+
+                loop: true,
+                loopFillGroupWithBlank: true,
+
+                pagination: {
+                    el: ".swiper-pagination"
+                }
+            });
+        </script>
+
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+.best_sellers {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0.5rem;
+}
+.best_seller_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+.best_seller_container .cart .S_txt {
+  color: white;
+}
+.best_seller_container .cart {
+  display: flex;
+  justify-content: center;
+  background: #50c878;
+}
+.best {
+  background: url(./images/badam.jpeg);
+  width: calc(100% - 65%);
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border-radius: 0.5rem;
+  gap: 1.5rem;
+}
+.best .L_txt {
+  color: white;
+  padding-left: 2rem;
+}
+.best .shopnow {
+  padding-left: 2rem;
+  padding-bottom: 4rem;
+}
+
+.bestselling:hover {
+  border: solid 0.5px rgb(210, 208, 208);
+
+  box-shadow: 0.2rem 0.2rem 0.5rem 0.07rem #b6b5b5;
+}
+.bestselling {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  border: solid 0.2rem rgb(210, 208, 208);
+  border-radius: 0.5rem;
+  gap: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/*------*/
+
+.hot_promotion {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 2rem 0.5rem;
+}
+
+.promo_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  min-height: 32rem;
+  width: 100%;
+}
+.promo_inner_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 30rem;
+  width: calc(100% - 50%);
+  padding: 2rem;
+  gap: 1.5rem;
+}
+.bg1 {
+  background: url(./images/veg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+}
+.bg2 {
+  background: url(./images/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+}
+.bg3 {
+  background: url(./images/veg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+}
+.bg4 {
+  background: url(./images/veg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+}
+.time {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 0.5rem;
+}
+.time_head {
+  color: #50c878;
+  font-size: 1.1rem;
+}
+.time_display {
+  font-size: 2.9rem;
+}
+.day {
+  text-align: center;
+  background: whitesmoke;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.hour {
+  text-align: center;
+  background: whitesmoke;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.minute {
+  text-align: center;
+  background: whitesmoke;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.sec {
+  text-align: center;
+  background: whitesmoke;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.promo_txt {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: whitesmoke;
+  gap: 1.5rem;
+  border-radius: 0.5rem;
+  max-width: 37rem;
+}
+.promo_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.promo_txt .cart .S_txt {
+  font-size: 1.5rem;
+  color: #15863a;
+}
+.promo_txt .cart img {
+  width: 2.5rem;
+}
+.promo_txt .S_txt {
+  font-size: 1rem;
+  color: rgb(154, 154, 154);
+}
+
+/*------*/
+
+.fruit_category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 19rem;
+  min-width: calc(100% - 70%);
+  border-radius: 0.5rem;
+  border: solid.1rem rgb(208, 208, 208);
+}
+
+.fruit_category:hover {
+  box-shadow: 0.2rem 0.2rem 0.5rem 0.07rem #b6b5b5;
+}
+.pineapple img {
+  width: 10rem;
+}
